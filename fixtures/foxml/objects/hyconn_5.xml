@@ -27,6 +27,7 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
 <rdf:RDF xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:pcdm="http://pcdm.org/models#">
   <rdf:Description rdf:about="info:fedora/hyconn:5">
     <fedora-model:hasModel rdf:resource="info:fedora/afmodel:GenericFile" />
+    <rdf:type rdf:resource="http://pcdm.org/models#Object" />
     <pcdm:memberOf rdf:resource="info:fedora/archives:1667751" />
   </rdf:Description>
 </rdf:RDF>
