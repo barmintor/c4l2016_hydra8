@@ -45,7 +45,7 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
     <form FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0" MIME="application/rdf+xml"></form>
   </dsTypeModel>
   <dsTypeModel ID="descMetadata">
-    <form MIME=""></form>
+    <form MIME="application/n-triples"></form>
   </dsTypeModel>
   <dsTypeModel ID="structMetadata">
     <form FORMAT_URI="http://www.loc.gov/METS/structMetadata" MIME="text/xml"></form>
