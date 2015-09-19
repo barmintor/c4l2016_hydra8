@@ -1,0 +1,8 @@
+<info:fedora/archives:1419123> <http://purl.org/dc/terms/identifier> <https://catalog.archives.gov/id/1419123> .
+<info:fedora/archives:1419123> <http://purl.org/dc/terms/created> "1776-08-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<info:fedora/archives:1419123> <http://purl.org/dc/terms/creator> <http://id.loc.gov/authorities/names/n80039712> .
+<info:fedora/archives:1419123> <http://purl.org/dc/terms/format> "Parchment" .
+<info:fedora/archives:1419123> <http://purl.org/dc/terms/publisher> <http://id.loc.gov/authorities/names/n84176101> .
+<info:fedora/archives:1419123> <http://purl.org/dc/terms/title> "Declaration of Independence" .
+<info:fedora/archives:1419123> <http://purl.org/dc/terms/type> "Text" .
+<info:fedora/archives:1419123> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.archives.gov/exhibits/charters/declaration.html> .
