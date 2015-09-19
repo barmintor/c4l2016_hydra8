@@ -20,3 +20,4 @@
 /config/fedora.yml
 /config/solr.yml
 /config/secrets.yml
+.DS_Store
