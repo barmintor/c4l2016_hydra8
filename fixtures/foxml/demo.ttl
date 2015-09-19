@@ -20,7 +20,7 @@ pcdm:hasMember archives-obj:1419123, archives-obj:1667751, archives-obj:1408042.
 
 archives-obj:1419123 a afmodel:Work;
 dc:title "Declaration of Independence"@en;
-dct:identifier archives:1667751;
+dct:identifier archives:1419123;
 dct:creator <http://id.loc.gov/authorities/names/n80039712>;
 dc:type "Text";
 dc:format "Parchment".
