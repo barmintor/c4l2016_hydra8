@@ -36,6 +36,7 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
 </foxml:datastream>
 <foxml:datastream ID="content" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
 <foxml:datastreamVersion ID="content1.0" LABEL="Constitution_Pg2of4_AC.jpg" MIMETYPE="image/jpeg">
+  <foxml:contentDigest TYPE="SHA-1" DIGEST="08ce35167586562264e2d55d94b457a8e0d1f17a" />
   <foxml:contentLocation REF="https://raw.githubusercontent.com/barmintor/hyconn2015_hydra8/master/fixtures/foxml/objects/content/constitution/Constitution_Pg2of4_AC.jpg" TYPE="URL" />
 </foxml:datastreamVersion>
 </foxml:datastream>

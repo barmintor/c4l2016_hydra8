@@ -37,6 +37,7 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
 </foxml:datastream>
 <foxml:datastream ID="structMetadata" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
 <foxml:datastreamVersion ID="structMetadata1.0" LABEL="METS structMap of this object" MIMETYPE="application/rdf+xml" FORMAT_URI="http://www.loc.gov/METS/structMap">
+  <foxml:contentDigest TYPE="SHA-1" DIGEST="c38e93bc08642315402b0c4da2972690db3d930a" />
 <foxml:xmlContent>
 <mets:structMap TYPE="logical" LABEL="Sequence" xmlns:mets="http://www.loc.gov/METS/">
   <mets:div ORDER="1" LABEL="Item 1" CONTENTIDS="info:fedora/archives:1419123" />
