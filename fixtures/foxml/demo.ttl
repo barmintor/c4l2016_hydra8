@@ -7,14 +7,14 @@
 @prefix pcdm-obj: <info:fedora/pcdm:> .
 @prefix archives-obj: <info:fedora/archives:> .
 @prefix afmodel: <info:fedora/afmodel:> .
-@prefix hyconn: <info:fedora/hyconn:> .
+@prefix usna: <info:fedora/usna:> .
 
-hyconn:1 a pcdm-obj:AdministrativeSet;
+usna:1 a pcdm-obj:AdministrativeSet;
 dc:title "Set of media for the Fedora 3 to 4 migration demo"@en;
 dct:creator <http://github.com/barmintor>;
-ldp:contains hyconn:3, hyconn:4, hyconn:5, hyconn:6, hyconn:7, hyconn:8, hyconn:9.
+ldp:contains usna:3, usna:4, usna:5, usna:6, usna:7, usna:8, usna:9.
 
-hyconn:2 a pcdm-obj:Collection;
+usna:2 a pcdm-obj:Collection;
 dc:title "Demonstration Documents from the US National Archives"@en;
 pcdm:hasMember archives-obj:1419123, archives-obj:1667751, archives-obj:1408042.
 
@@ -39,81 +39,81 @@ dct:creator <http://id.loc.gov/authorities/names/n80039712>;
 dc:type "Text";
 dc:format "Parchment".
 
-hyconn:3 a afmodel:GenericFile;
+usna:3 a afmodel:GenericFile;
 dc:title "Image of the Declaration of Independence Manuscript"@en;
 dc:type "Image";
 dct:creator <http://id.loc.gov/authorities/names/n84176101>;
-pcdm:hasFile <info:fedora/hyconn:3/content>;
+pcdm:hasFile <info:fedora/usna:3/content>;
 pcdm:memberOf archives-obj:1419123.
 
-<info:fedora/hyconn:3/content> a pcdm:File;
-dc:source "https://raw.githubusercontent.com/barmintor/hyconn2015_hydra8/master/fixtures/foxml/objects/content/declaration/Declaration_Pg1of2_AC.jpg";
+<info:fedora/usna:3/content> a pcdm:File;
+dc:source "https://raw.githubusercontent.com/barmintor/usna_demo_hydra8/master/fixtures/foxml/objects/content/declaration/Declaration_Pg1of2_AC.jpg";
 dc:format "image/jpeg".
 
-hyconn:4 a afmodel:GenericFile;
+usna:4 a afmodel:GenericFile;
 dc:title "Image of the Declaration of Independence Manuscript Reverse"@en;
 dct:creator <http://id.loc.gov/authorities/names/n84176101>;
-pcdm:hasFile <info:fedora/hyconn:4/content>;
+pcdm:hasFile <info:fedora/usna:4/content>;
 pcdm:memberOf archives-obj:1419123.
 
-<info:fedora/hyconn:4/content> a pcdm:File;
-dc:source "https://raw.githubusercontent.com/barmintor/hyconn2015_hydra8/master/fixtures/foxml/objects/content/declaration/Declaration_Pg2of2_AC.jpg";
+<info:fedora/usna:4/content> a pcdm:File;
+dc:source "https://raw.githubusercontent.com/barmintor/usna_demo_hydra8/master/fixtures/foxml/objects/content/declaration/Declaration_Pg2of2_AC.jpg";
 dc:format "image/jpeg".
 
-hyconn:5 a afmodel:GenericFile;
+usna:5 a afmodel:GenericFile;
 dc:title "Image of the Constitution"@en;
 dc:type "Image";
 dct:creator <http://id.loc.gov/authorities/names/n84176101>;
-pcdm:hasFile <info:fedora/hyconn:5/content>;
+pcdm:hasFile <info:fedora/usna:5/content>;
 pcdm:memberOf archives-obj:1667751.
 
-<info:fedora/hyconn:5/content> a pcdm:File;
-dc:source "https://raw.githubusercontent.com/barmintor/hyconn2015_hydra8/master/fixtures/foxml/objects/content/constitution/Constitution_Pg1of4_AC.jpg";
+<info:fedora/usna:5/content> a pcdm:File;
+dc:source "https://raw.githubusercontent.com/barmintor/usna_demo_hydra8/master/fixtures/foxml/objects/content/constitution/Constitution_Pg1of4_AC.jpg";
 dc:format "image/jpeg".
 
-hyconn:6 a afmodel:GenericFile;
+usna:6 a afmodel:GenericFile;
 dc:title "Image of the Constitution"@en;
 dc:type "Image";
 dct:creator <http://id.loc.gov/authorities/names/n84176101>;
-pcdm:hasFile <info:fedora/hyconn:6/content>;
+pcdm:hasFile <info:fedora/usna:6/content>;
 pcdm:memberOf archives-obj:1667751.
 
-<info:fedora/hyconn:6/content> a pcdm:File;
-dc:source "https://raw.githubusercontent.com/barmintor/hyconn2015_hydra8/master/fixtures/foxml/objects/content/constitution/Constitution_Pg2of4_AC.jpg";
+<info:fedora/usna:6/content> a pcdm:File;
+dc:source "https://raw.githubusercontent.com/barmintor/usna_demo_hydra8/master/fixtures/foxml/objects/content/constitution/Constitution_Pg2of4_AC.jpg";
 dc:format "image/jpeg".
 
-hyconn:7 a afmodel:GenericFile;
+usna:7 a afmodel:GenericFile;
 dc:title "Image of the Constitution"@en;
 dc:type "Image";
 dct:creator <http://id.loc.gov/authorities/names/n84176101>;
-pcdm:hasFile <info:fedora/hyconn:7/content>;
+pcdm:hasFile <info:fedora/usna:7/content>;
 pcdm:memberOf archives-obj:1667751.
 
-<info:fedora/hyconn:7/content> a pcdm:File;
-dc:source "https://raw.githubusercontent.com/barmintor/hyconn2015_hydra8/master/fixtures/foxml/objects/content/constitution/Constitution_Pg3of4_AC.jpg";
+<info:fedora/usna:7/content> a pcdm:File;
+dc:source "https://raw.githubusercontent.com/barmintor/usna_demo_hydra8/master/fixtures/foxml/objects/content/constitution/Constitution_Pg3of4_AC.jpg";
 dc:format "image/jpeg".
 
-hyconn:8 a afmodel:GenericFile;
+usna:8 a afmodel:GenericFile;
 dc:title "Image of the Constitution"@en;
 dc:type "Image";
 dct:creator <http://id.loc.gov/authorities/names/n84176101>;
-pcdm:hasFile <info:fedora/hyconn:8/content>;
+pcdm:hasFile <info:fedora/usna:8/content>;
 pcdm:memberOf archives-obj:1667751.
 
-<info:fedora/hyconn:8/content> a pcdm:File;
-dc:source "https://raw.githubusercontent.com/barmintor/hyconn2015_hydra8/master/fixtures/foxml/objects/content/constitution/Constitution_Pg4of4_AC.jpg";
+<info:fedora/usna:8/content> a pcdm:File;
+dc:source "https://raw.githubusercontent.com/barmintor/usna_demo_hydra8/master/fixtures/foxml/objects/content/constitution/Constitution_Pg4of4_AC.jpg";
 dc:format "image/jpeg".
 
-hyconn:9 a afmodel:GenericFile;
+usna:9 a afmodel:GenericFile;
 dc:title "Image of the Bill of Rights"@en;
 dc:type "Image";
 dc:format "image/jpeg";
 dct:creator <http://id.loc.gov/authorities/names/n84176101>;
-pcdm:hasFile <info:fedora/hyconn:9/content>;
+pcdm:hasFile <info:fedora/usna:9/content>;
 pcdm:memberOf archives-obj:1408042.
 
-<info:fedora/hyconn:9/content> a pcdm:File;
-dc:source "https://raw.githubusercontent.com/barmintor/hyconn2015_hydra8/master/fixtures/foxml/objects/content/bill/Bill_of_Rights_Pg1of1_AC.jpg";
+<info:fedora/usna:9/content> a pcdm:File;
+dc:source "https://raw.githubusercontent.com/barmintor/usna_demo_hydra8/master/fixtures/foxml/objects/content/bill/Bill_of_Rights_Pg1of1_AC.jpg";
 dc:format "image/jpeg".
 
 
