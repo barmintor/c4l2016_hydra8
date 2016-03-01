@@ -1,4 +1,4 @@
 development:
-  url: 'http://localhost:8986/fedora'
+  url: 'http://localhost:8080/fedora-3.8.1'
   user: 'fedoraAdmin'
   password: 'fedoraAdmin'
