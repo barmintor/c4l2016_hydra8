@@ -6,8 +6,8 @@ Jettywrapper.url = "https://github.com/cul/hydra-jetty/archive/#{JETTY_ZIP_BASEN
 
 require 'util/directory_loader'
 
-namespace :hyconn do
-  task load_demo: :environment do
+namespace :usna do
+  task load: :environment do
     method = (ENV['reload'].to_s =~ /true/i) ? :reload : :load
     loader = Util::DirectoryLoader.new
     loader.directory = Dir.new(File.join(APP_ROOT, 'fixtures','foxml','cmodels'))

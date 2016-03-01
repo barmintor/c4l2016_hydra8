@@ -27,7 +27,9 @@ module Util
         if fname =~ /\.xml$/
           path = File.join(directory,fname)
           File.open(path, 'rb') do |io|
-            yield File.basename(path, ".xml").sub('_',':'), io
+            content = io.read
+            content.gsub!('#{Rails.root}', Rails.root.to_s)
+            yield File.basename(path, ".xml").sub('_',':'), StringIO.new(content)
           end
         end
       end
@@ -36,6 +38,7 @@ module Util
       content = StringIO.new(content) if content.is_a? String
       begin
         connection.ingest(:file=>content, :pid=>pid)
+        ActiveFedora::Base.find(pid).update_index
       rescue Exception => e
         puts "possible problem with ingest of #{pid}: #{e.message}"
         raise e if error
@@ -43,7 +46,8 @@ module Util
     end
     def purge(pid,error=false)
       begin
-        connection.purge_object :pid=>pid
+        ActiveFedora::Base.find(pid).destroy
+        # connection.purge_object :pid=>pid
       rescue Exception => e
         puts "possible problem with purge of #{pid}: #{e.message}"
         raise e if error

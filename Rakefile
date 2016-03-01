@@ -1,7 +1,19 @@
 # Add your own tasks in files placed in lib/tasks ending in .rake,
 # for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
 
-require File.expand_path('../config/application', __FILE__)
+config_dir = File.expand_path('../config', __FILE__)
+
+['database.yml', 'fedora.yml', 'solr.yml'].each do |config_file|
+  config_path = File.join(config_dir, config_file)
+  unless File.exist?(config_path)
+    sample_path = File.join(config_dir, "#{config_file}.sample")
+    open(sample_path) do |src|
+      open(config_path, 'wb') { |target| target.write(src.read) }
+    end
+  end
+end
+
+require File.join(config_dir,'application')
 
 Rails.application.load_tasks
 

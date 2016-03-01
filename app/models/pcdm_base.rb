@@ -9,6 +9,6 @@ class PcdmBase < ActiveFedora::Base
 
   belongs_to :container, property: :ldp_contained_by, inverse_of: :ldp_contains, class_name: 'AdministrativeSet'
 
-  has_many :aggregators, property: :pcdm_member_of
+  has_many :aggregators, property: :pcdm_member_of, class_name: 'ActiveFedora::Base'
 
 end
