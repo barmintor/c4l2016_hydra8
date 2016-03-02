@@ -28,7 +28,6 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
   <rdf:Description rdf:about="info:fedora/usna:3">
     <fedora-model:hasModel rdf:resource="info:fedora/afmodel:GenericFile" />
     <rdf:type rdf:resource="http://pcdm.org/models#Object" />
-    <pcdm:memberOf rdf:resource="info:fedora/archives:1419123" />
   </rdf:Description>
 </rdf:RDF>
 </foxml:xmlContent>

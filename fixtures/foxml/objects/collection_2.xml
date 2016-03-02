@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<foxml:digitalObject VERSION="1.1" PID="usna:2"
+<foxml:digitalObject VERSION="1.1" PID="collection:2"
 xmlns:foxml="info:fedora/fedora-system:def/foxml#"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
@@ -16,7 +16,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
   <dc:title>Demonstration Documents from the US National Archives</dc:title>
   <dc:creator>barmintor</dc:creator>
-  <dc:identifier>usna:2</dc:identifier>
+  <dc:identifier>collection:2</dc:identifier>
 </oai_dc:dc>
 </foxml:xmlContent>
 </foxml:datastreamVersion>
@@ -25,7 +25,7 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
 <foxml:datastreamVersion ID="RELS-EXT1.0" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0">
 <foxml:xmlContent>
 <rdf:RDF xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:pcdm="http://pcdm.org/models#">
-  <rdf:Description rdf:about="info:fedora/usna:2">
+  <rdf:Description rdf:about="info:fedora/collection:2">
     <fedora-model:hasModel rdf:resource="info:fedora/pcdm:Collection" />
     <pcdm:hasMember rdf:resource="info:fedora/archives:1419123" />
     <pcdm:hasMember rdf:resource="info:fedora/archives:1667751" />
@@ -37,7 +37,6 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
 </foxml:datastream>
 <foxml:datastream ID="structMetadata" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
 <foxml:datastreamVersion ID="structMetadata1.0" LABEL="METS structMap of this object" MIMETYPE="text/xml" FORMAT_URI="http://www.loc.gov/METS/structMap">
-  <foxml:contentDigest TYPE="SHA-1" DIGEST="c38e93bc08642315402b0c4da2972690db3d930a" />
 <foxml:xmlContent><mets:structMap TYPE="logical" LABEL="Sequence" xmlns:mets="http://www.loc.gov/METS/">
   <mets:div ORDER="1" LABEL="Item 1" CONTENTIDS="info:fedora/archives:1419123" />
   <mets:div ORDER="2" LABEL="Item 2" CONTENTIDS="info:fedora/archives:1667751" />
