@@ -36,4 +36,10 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
 </foxml:xmlContent>
 </foxml:datastreamVersion>
 </foxml:datastream>
+<foxml:datastream ID="ocr" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="ocr1.0" LABEL="00303_2003_001.txt" MIMETYPE="text/plain">
+  <foxml:contentDigest TYPE="SHA-1" DIGEST="807a89215ff8eaa3d4c5565f264b17edf8bf434e" />
+  <foxml:contentLocation REF="file:/vagrant/repos/usna_demo_hydra9/fixtures/files/00303_2003_001.txt" TYPE="URL" />
+</foxml:datastreamVersion>
+</foxml:datastream>
 </foxml:digitalObject>
