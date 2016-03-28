@@ -38,7 +38,7 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
 <foxml:datastream ID="content" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
 <foxml:datastreamVersion ID="content1.0" LABEL="00300_2003_001_MA.jpg" MIMETYPE="image/jpeg">
   <foxml:contentDigest TYPE="SHA-1" DIGEST="2ebe23ee5382c528f64363aa512e87141f354664" />
-  <foxml:contentLocation REF="file:/repos/usna_demo_hydra9/fixtures/files/00300_2003_001_MA.jpg" TYPE="URL" />
+  <foxml:contentLocation REF="file:/vagrant/repos/usna_demo_hydra9/fixtures/files/00300_2003_001_MA.jpg" TYPE="URL" />
 </foxml:datastreamVersion>
 </foxml:datastream>
 </foxml:digitalObject>
