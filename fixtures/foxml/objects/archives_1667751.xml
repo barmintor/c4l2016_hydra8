@@ -40,7 +40,7 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
 <foxml:datastream ID="descMetadata" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
 <foxml:datastreamVersion ID="descMetadata1.0" LABEL="1667751.nt" MIMETYPE="application/n-triples">
   <foxml:contentDigest TYPE="SHA-1" DIGEST="ba8df6b62cd3fb93957ee96f28baafa61d3a8c7a" />
-  <foxml:contentLocation REF="file:/repos/usna_demo_hydra9/fixtures/descriptions/1667751.nt" TYPE="URL" />
+  <foxml:contentLocation REF="file:/vagrant/repos/usna_demo_hydra9/fixtures/descriptions/1667751.nt" TYPE="URL" />
 </foxml:datastreamVersion>
 </foxml:datastream>
 <foxml:datastream ID="structMetadata" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
