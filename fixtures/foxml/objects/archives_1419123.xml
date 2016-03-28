@@ -28,8 +28,8 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
   <rdf:Description rdf:about="info:fedora/archives:1419123">
     <fedora-model:hasModel rdf:resource="info:fedora/afmodel:Work" />
     <rdf:type rdf:resource="http://pcdm.org/models#Object" />
-    <pcdm:hasMember rdf:resource="info:fedora/usna:3" />
-    <pcdm:hasMember rdf:resource="info:fedora/usna:4" />
+    <pcdm:hasMember rdf:resource="info:fedora/archives:1419123a" />
+    <pcdm:hasMember rdf:resource="info:fedora/archives:1419123b" />
   </rdf:Description>
 </rdf:RDF>
 </foxml:xmlContent>
@@ -37,15 +37,15 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
 </foxml:datastream>
 <foxml:datastream ID="descMetadata" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
 <foxml:datastreamVersion ID="descMetadata1.0" LABEL="1419123.nt" MIMETYPE="application/n-triples">
-  <foxml:contentDigest TYPE="SHA-1" DIGEST="66144f1adbf69fd8f869c7b9665b80f65b7e8106" />
-  <foxml:contentLocation REF="file:#{Rails.root}/fixtures/foxml/objects/descMetadata/1419123.nt" TYPE="URL" />
+  <foxml:contentDigest TYPE="SHA-1" DIGEST="f77a147ecf4fd4e31fe53f73c851a9ca1ba4770b" />
+  <foxml:contentLocation REF="file:/repos/usna_demo_hydra9/fixtures/descriptions/1419123.nt" TYPE="URL" />
 </foxml:datastreamVersion>
 </foxml:datastream>
 <foxml:datastream ID="structMetadata" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
 <foxml:datastreamVersion ID="structMetadata1.0" LABEL="METS structMap of this object" MIMETYPE="text/xml" FORMAT_URI="http://www.loc.gov/METS/structMap">
 <foxml:xmlContent><mets:structMap TYPE="logical" LABEL="Sequence" xmlns:mets="http://www.loc.gov/METS/">
-  <mets:div ORDER="1" LABEL="Recto" CONTENTIDS="info:fedora/usna:3" />
-  <mets:div ORDER="2" LABEL="Verso" CONTENTIDS="info:fedora/usna:4" />
+  <mets:div ORDER="1" LABEL="Recto" CONTENTIDS="info:fedora/archives:1419123a" />
+  <mets:div ORDER="2" LABEL="Verso" CONTENTIDS="info:fedora/archives:1419123b" />
 </mets:structMap></foxml:xmlContent>
 </foxml:datastreamVersion>
 </foxml:datastream>

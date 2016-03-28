@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<foxml:digitalObject VERSION="1.1" PID="archives:1408042"
+<foxml:digitalObject VERSION="1.1" PID="usna:14"
 xmlns:foxml="info:fedora/fedora-system:def/foxml#"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/definitions/1/0/foxml1-1.xsd">
 <foxml:objectProperties>
 <foxml:property NAME="info:fedora/fedora-system:def/model#state" VALUE="Active"/>
-<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Set of media for the Fedora 3 to 4 migration demo"/>
+<foxml:property NAME="info:fedora/fedora-system:def/model#label" VALUE="Image of the Bill of Rights"/>
 </foxml:objectProperties>
 <foxml:datastream ID="DC" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
 <foxml:datastreamVersion ID="DC1.0" LABEL="Dublin Core Record for this object" MIMETYPE="text/xml" FORMAT_URI="http://www.openarchives.org/OAI/2.0/oai_dc/">
@@ -14,31 +14,31 @@ xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/
 xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-  <dc:title>Charter of Freedom</dc:title>
+  <dc:title>Image of the Bill of Rights</dc:title>
   <dc:creator>barmintor</dc:creator>
-  <dc:identifier>archives:1408042</dc:identifier>
+  <dc:identifier>usna:14</dc:identifier>
+  <dc:identifier>00306_2003_001_MA</dc:identifier>
 </oai_dc:dc>
 </foxml:xmlContent>
 </foxml:datastreamVersion>
 </foxml:datastream>
 <foxml:datastream ID="RELS-EXT" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
 <foxml:datastreamVersion ID="RELS-EXT1.0" LABEL="RDF Statements about this object" MIMETYPE="application/rdf+xml" FORMAT_URI="info:fedora/fedora-system:FedoraRELSExt-1.0">
-  <foxml:contentDigest TYPE="SHA-1" />
 <foxml:xmlContent>
 <rdf:RDF xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:pcdm="http://pcdm.org/models#">
-  <rdf:Description rdf:about="info:fedora/archives:1408042">
-    <fedora-model:hasModel rdf:resource="info:fedora/afmodel:Work" />
+  <rdf:Description rdf:about="info:fedora/usna:14">
+    <fedora-model:hasModel rdf:resource="info:fedora/afmodel:GenericFile" />
     <rdf:type rdf:resource="http://pcdm.org/models#Object" />
-    <pcdm:hasMember rdf:resource="info:fedora/archives:1408042a" />
+    <qualifiedUsingActivity xmlns="http://www.w3.org/ns/prov-o-inverses#" rdf:resource="http://pcdm.org/use#PreservationMasterFile"/>
   </rdf:Description>
 </rdf:RDF>
 </foxml:xmlContent>
 </foxml:datastreamVersion>
 </foxml:datastream>
-<foxml:datastream ID="descMetadata" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
-<foxml:datastreamVersion ID="descMetadata1.0" LABEL="1408042.nt" MIMETYPE="application/n-triples">
-  <foxml:contentDigest TYPE="SHA-1" DIGEST="ab729d1a12533c39668c076e2cabcd6e8af8b9cf" />
-  <foxml:contentLocation REF="file:/repos/usna_demo_hydra9/fixtures/descriptions/1408042.nt" TYPE="URL" />
+<foxml:datastream ID="content" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
+<foxml:datastreamVersion ID="content1.0" LABEL="00306_2003_001_MA.jpg" MIMETYPE="image/jpeg">
+  <foxml:contentDigest TYPE="SHA-1" DIGEST="1fc753127bfa0459d0634dc3bfc7eaa770f1ef8c" />
+  <foxml:contentLocation REF="file:/vagrant/repos/usna_demo_hydra9/fixtures/files/00306_2003_001_MA.jpg" TYPE="URL" />
 </foxml:datastreamVersion>
 </foxml:datastream>
 </foxml:digitalObject>

@@ -14,9 +14,10 @@ xsi:schemaLocation="info:fedora/fedora-system:def/foxml# http://www.fedora.info/
 xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-  <dc:title>Image of the Declaration of Independence Manuscript</dc:title>
+  <dc:title>Image of the Declaration of Independence</dc:title>
   <dc:creator>barmintor</dc:creator>
   <dc:identifier>usna:3</dc:identifier>
+  <dc:identifier>00300_2003_001_AC</dc:identifier>
 </oai_dc:dc>
 </foxml:xmlContent>
 </foxml:datastreamVersion>
@@ -28,15 +29,16 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
   <rdf:Description rdf:about="info:fedora/usna:3">
     <fedora-model:hasModel rdf:resource="info:fedora/afmodel:GenericFile" />
     <rdf:type rdf:resource="http://pcdm.org/models#Object" />
+    <qualifiedUsingActivity xmlns="http://www.w3.org/ns/prov-o-inverses#" rdf:resource="http://pcdm.org/use#ServiceFile"/>
   </rdf:Description>
 </rdf:RDF>
 </foxml:xmlContent>
 </foxml:datastreamVersion>
 </foxml:datastream>
 <foxml:datastream ID="content" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
-<foxml:datastreamVersion ID="content1.0" LABEL="Declaration_Pg1of2_AC.jpg" MIMETYPE="image/jpeg">
-  <foxml:contentDigest TYPE="SHA-1" DIGEST="445b2466678f46e21ed60eab14981d0221f1a1ca" />
-  <foxml:contentLocation REF="file:#{Rails.root}/fixtures/foxml/objects/content/declaration/Declaration_Pg1of2_AC.jpg" TYPE="URL" />
+<foxml:datastreamVersion ID="content1.0" LABEL="00300_2003_001_AC.jpg" MIMETYPE="image/jpeg">
+  <foxml:contentDigest TYPE="SHA-1" DIGEST="113ef59bdfa8c7b9cc326bcb57b415372c3459ad" />
+  <foxml:contentLocation REF="file:/repos/usna_demo_hydra9/fixtures/files/00300_2003_001_AC.jpg" TYPE="URL" />
 </foxml:datastreamVersion>
 </foxml:datastream>
 </foxml:digitalObject>

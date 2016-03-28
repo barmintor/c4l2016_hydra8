@@ -28,10 +28,10 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
   <rdf:Description rdf:about="info:fedora/archives:1667751">
     <fedora-model:hasModel rdf:resource="info:fedora/afmodel:Work" />
     <rdf:type rdf:resource="http://pcdm.org/models#Object" />
-    <pcdm:hasMember rdf:resource="info:fedora/usna:5" />
-    <pcdm:hasMember rdf:resource="info:fedora/usna:6" />
-    <pcdm:hasMember rdf:resource="info:fedora/usna:7" />
-    <pcdm:hasMember rdf:resource="info:fedora/usna:8" />
+    <pcdm:hasMember rdf:resource="info:fedora/archives:1667751a" />
+    <pcdm:hasMember rdf:resource="info:fedora/archives:1667751b" />
+    <pcdm:hasMember rdf:resource="info:fedora/archives:1667751c" />
+    <pcdm:hasMember rdf:resource="info:fedora/archives:1667751d" />
   </rdf:Description>
 </rdf:RDF>
 </foxml:xmlContent>
@@ -39,17 +39,17 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
 </foxml:datastream>
 <foxml:datastream ID="descMetadata" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
 <foxml:datastreamVersion ID="descMetadata1.0" LABEL="1667751.nt" MIMETYPE="application/n-triples">
-  <foxml:contentDigest TYPE="SHA-1" DIGEST="08657b1a646957368f94b93253241afb04163593" />
-  <foxml:contentLocation REF="file:#{Rails.root}/fixtures/foxml/objects/descMetadata/1667751.nt" TYPE="URL" />
+  <foxml:contentDigest TYPE="SHA-1" DIGEST="ba8df6b62cd3fb93957ee96f28baafa61d3a8c7a" />
+  <foxml:contentLocation REF="file:/repos/usna_demo_hydra9/fixtures/descriptions/1667751.nt" TYPE="URL" />
 </foxml:datastreamVersion>
 </foxml:datastream>
 <foxml:datastream ID="structMetadata" STATE="A" CONTROL_GROUP="X" VERSIONABLE="true">
 <foxml:datastreamVersion ID="structMetadata1.0" LABEL="METS structMap of this object" MIMETYPE="text/xml" FORMAT_URI="http://www.loc.gov/METS/structMap">
 <foxml:xmlContent><mets:structMap TYPE="logical" LABEL="Sequence" xmlns:mets="http://www.loc.gov/METS/">
-  <mets:div ORDER="1" LABEL="Page 1" CONTENTIDS="info:fedora/usna:5" />
-  <mets:div ORDER="2" LABEL="Page 2" CONTENTIDS="info:fedora/usna:6" />
-  <mets:div ORDER="3" LABEL="Page 3" CONTENTIDS="info:fedora/usna:7" />
-  <mets:div ORDER="4" LABEL="Page 4" CONTENTIDS="info:fedora/usna:8" />
+  <mets:div ORDER="1" LABEL="Page 1" CONTENTIDS="info:fedora/archives:1667751a" />
+  <mets:div ORDER="2" LABEL="Page 2" CONTENTIDS="info:fedora/archives:1667751b" />
+  <mets:div ORDER="3" LABEL="Page 3" CONTENTIDS="info:fedora/archives:1667751c" />
+  <mets:div ORDER="4" LABEL="Page 4" CONTENTIDS="info:fedora/archives:1667751d" />
 </mets:structMap></foxml:xmlContent>
 </foxml:datastreamVersion>
 </foxml:datastream>

@@ -17,6 +17,7 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
   <dc:title>Image of the Constitution</dc:title>
   <dc:creator>barmintor</dc:creator>
   <dc:identifier>usna:6</dc:identifier>
+  <dc:identifier>00303_2003_001_MA</dc:identifier>
 </oai_dc:dc>
 </foxml:xmlContent>
 </foxml:datastreamVersion>
@@ -28,15 +29,16 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
   <rdf:Description rdf:about="info:fedora/usna:6">
     <fedora-model:hasModel rdf:resource="info:fedora/afmodel:GenericFile" />
     <rdf:type rdf:resource="http://pcdm.org/models#Object" />
+    <qualifiedUsingActivity xmlns="http://www.w3.org/ns/prov-o-inverses#" rdf:resource="http://pcdm.org/use#PreservationMasterFile"/>
   </rdf:Description>
 </rdf:RDF>
 </foxml:xmlContent>
 </foxml:datastreamVersion>
 </foxml:datastream>
 <foxml:datastream ID="content" STATE="A" CONTROL_GROUP="M" VERSIONABLE="true">
-<foxml:datastreamVersion ID="content1.0" LABEL="Constitution_Pg2of4_AC.jpg" MIMETYPE="image/jpeg">
-  <foxml:contentDigest TYPE="SHA-1" DIGEST="08ce35167586562264e2d55d94b457a8e0d1f17a" />
-  <foxml:contentLocation REF="file:#{Rails.root}/fixtures/foxml/objects/content/constitution/Constitution_Pg2of4_AC.jpg" TYPE="URL" />
+<foxml:datastreamVersion ID="content1.0" LABEL="00303_2003_001_MA.jpg" MIMETYPE="image/jpeg">
+  <foxml:contentDigest TYPE="SHA-1" DIGEST="6872deccb0213d4204c2b833c3b11b33b5377533" />
+  <foxml:contentLocation REF="file:/repos/usna_demo_hydra9/fixtures/files/00303_2003_001_MA.jpg" TYPE="URL" />
 </foxml:datastreamVersion>
 </foxml:datastream>
 </foxml:digitalObject>

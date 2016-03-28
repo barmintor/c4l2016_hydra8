@@ -34,6 +34,12 @@ xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.opena
     <fedora-relsext:hasConstituent rdf:resource="info:fedora/usna:7" />
     <fedora-relsext:hasConstituent rdf:resource="info:fedora/usna:8" />
     <fedora-relsext:hasConstituent rdf:resource="info:fedora/usna:9" />
+    <fedora-relsext:hasConstituent rdf:resource="info:fedora/usna:10" />
+    <fedora-relsext:hasConstituent rdf:resource="info:fedora/usna:11" />
+    <fedora-relsext:hasConstituent rdf:resource="info:fedora/usna:12" />
+    <fedora-relsext:hasConstituent rdf:resource="info:fedora/usna:13" />
+    <fedora-relsext:hasConstituent rdf:resource="info:fedora/usna:14" />
+    <fedora-relsext:hasConstituent rdf:resource="info:fedora/usna:15" />
   </rdf:Description>
 </rdf:RDF>
 </foxml:xmlContent>
